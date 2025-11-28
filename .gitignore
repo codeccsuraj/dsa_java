@@ -1,0 +1,30 @@
+# Eclipse / Java
+.classpath
+.project
+.settings/
+bin/
+target/
+out/
+*.class
+
+# Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+
+# Gradle
+.gradle/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# VS Code (optional)
+.vscode/
