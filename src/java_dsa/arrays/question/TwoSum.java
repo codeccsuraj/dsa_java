@@ -1,5 +1,7 @@
 package java_dsa.arrays.question;
 
+import java.util.Arrays;
+
 public class TwoSum {
 /**
  * #### Two Sum ####
@@ -11,7 +13,10 @@ public class TwoSum {
  * 		output will [0, 1];
  * **/
 	public static void main(String[] args) {
-		int[] nums = {2, 7, 11, 13};
+		int[] nums = {11, 7, 2, 13};
+		
+		
+		System.out.println(Arrays.toString(nums));
 		int target = 15;
 		boolean res = TwoSum(nums, target);
 		
